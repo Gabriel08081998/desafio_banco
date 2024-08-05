@@ -39,3 +39,25 @@ Este projeto é uma aplicação de gerenciamento bancário desenvolvida com Spri
 
    ```bash
    git clone https://github.com/usuario/desafio-dio-banco.git
+
+# Requirements
+
+Para buildar e rodar você precisa:
+
+- [JDK 1.8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+- [Maven 3.6.3](https://maven.apache.org)
+
+- # Rodando a aplicação localmente
+
+Existem várias maneiras de executar um aplicativo Spring Boot em sua máquina local. Uma maneira é executar o método `main` na classe `com.desafio.DesafioDioBanco` de seu IDE.
+
+Alternativamente, você pode usar o [Spring Boot Maven plugin](https://docs.spring.io/spring-boot/docs/current/reference/html/build-tool-plugins-maven-plugin.html) like so:
+
+```shell
+mvn spring-boot:run
+```
+
+# Direito autoral
+
+Lançado sob o Apache License 2.0. Ver o [LICENSE](https://github.com/Gabriel08081998/desafio_banco) arquivo.
+
